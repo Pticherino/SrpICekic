@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>SrpiCekic</title>
+	
+		<link rel="stylesheet" href="CSS\style.css">
+	</head>
+	
+	
+	
+	<body>
+		<a  href="Index.html" id="Logo">
+			<img src="Logo/Logo.png" id="LogoImg" alt="Click to get to the homepage">
+		</a>
+		
+		<div class="header">
+		</div>
+		
+		<div class="all">
+			<div class="divSide"></div>
+				<div class="middle">
+					<nav>
+	
+					
+		
+						<div class="navigation">
+		
+									<a class="active" href="Index.html">Home</a>
+									<a id="inventory"href="Inventory.html">Inventory</a>
+									<a id="contact" href="Contact.html">Contact</a>
+						</div>
+		
+					</nav>
+					<div class="body">
+			
+	
+						<div id="main">
+							<table>
+								<tr>
+									<td><p class="p1">Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum.</p>
+										<p class="p1"> Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et.</p> 
+									</td>
+									<td></td>
+								</tr>
+							</table>
+						</div>
+				
+					</div>
+				</div>
+			<div class="divSide"></div>
+		</div>
+	</body>
+
+	
+	<div id="cover">
+		<a id="SlideLink">
+			<img src="Logo/Logo.png" id="SlideImg" height= "250px" alt="Click to get to the homepage">
+		</a>
+	</div>
+	
+	<script src="JS/jquery.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('html, body').css({
+				overflow: 'hidden',
+				height: '100%'
+			});
+			$("#SlideLink").on('click',function(){
+				$("#SlideLink").fadeOut(200);
+				$("#cover").delay(300).slideToggle(1000);
+			});
+		});
+	</script>
+	
+</html>

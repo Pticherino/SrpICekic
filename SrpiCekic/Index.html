@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>SrpiCekic</title>
+	
+		<link rel="stylesheet" href="CSS/style.css">
+		<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+	</head>
+	
+	<body>
+		<a  href="Home.html" id="Logo">
+			<img src="Logo/Logo.png" id="LogoImg" alt="Click to get to the homepage">
+		</a>
+		
+		<div id="header"></div>
+		
+		<div id="wrapper">
+			<div class="divSide"></div>
+			
+			<div id="middle">
+				<nav>
+					<ul id="navigation">
+						<li><a id="active" href="Home.html">Početna</a></li>
+						<li><a class="midTabs" href="Inventory.html">Skladište</a></li>
+						<li><a class="lastTab" href="Contact.html">Kontakt</a></li>
+					</ul>
+				</nav>
+				
+				<div id="main">
+					<table id="homeTable">
+						<tr>
+							<td>
+								<h1>Dragi Prijatelji</h1>
+								<p class="p1">Nakon dvadesetogodišnjeg iskustva u radu u branši odlučili smo da započnemo samostalan posao i da pokušamo da obuhvatimo i ispravimo sve one greške i propuste koje smo tokom svih tih godina uočili.</p>
+								<p class="p1">Vođeni radnim navikama i odnosom prema radu koje nam je vaspitanjem i obrazovanjem preneseno, nastao je naš maloprodajni objekat gožđara Srp i Čekić, namenjena radničkoj klasi tj. svim ljudima koji vredno rade i stvaraju.</p>
+								<p class="p1">S obzirom da smo i mi porodična firma, pre svega cenimo sve porodične vrednosti i trudimo se da obuhvatimo i ponudimo sve ono što je potrebno i neophodno za ugodan život jedne porodice, bilo da se radi o profesionalnim potrebama, hobiju ili čistom zadovoljstvu.</p>
+								<p class="p1">Tako smo i naš asortiman formirali spram potreba svih kategorija korisnika pa u njemu imamo:
+								
+								<br><br>
+								<a href="inventory.html">U Skladište</a></p>
+							</td>
+						</tr>
+					</table>
+				</div>
+				
+			</div>
+		</div>
+		
+		<div class="divSide"></div>
+		
+			<img src="Logo/SiteCover.png" id="ImgMap"  alt="Click to get to the homepage" usemap="#Map" />
+			<map name="Map" id="Map">
+				<area id="mapArea"shape="poly" coords="888,436,951,448,924,490,1027,577,1037,559,1042,535,1041,513,1033,492,1024,476,1016,464,1006,452,996,441,984,431,969,420,956,412,945,406,940,403,954,402,968,404,982,407,996,412,1011,420,1026,429,1040,440,1050,449,1060,460,1069,472,1076,484,1081,496,1084,509,1086,526,1086,542,1084,557,1082,570,1077,586,1074,597,1068,610,1111,649,1113,655,1112,662,1110,668,1103,675,1098,678,1092,679,1086,679,1084,679,1038,637,1024,644,1014,647,1004,650,998,652,990,653,982,654,972,655,964,655,955,654,946,652,941,651,932,648,924,645,917,641,908,636,900,630,894,624,887,616,882,618,893,632,892,636,889,639,883,639,879,639,871,634,866,642,858,656,850,664,845,672,839,676,830,680,824,680,817,677,813,673,810,669,808,663,809,654,812,647,817,642,823,635,847,614,843,607,843,599,848,596,852,596,857,599,862,600,867,597,871,594,873,584,880,581,886,582,893,586,901,591,909,597,915,603,924,608,934,612,944,616,953,616,960,617,969,616,976,614,982,611,990,609,996,605,893,518,868,544,826,507" />
+			</map>
+	</body>
+	
+	
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('html, body').css({
+				overflow: 'hidden',
+				height: '100%'
+			});
+			$("#mapArea").on("mouseover",function(){
+				$("#ImgMap").attr("src","Logo/SiteCoverActive.png");				
+			});
+			$("#ImgMap").on("mouseover",function(){
+				$("#ImgMap").attr("src","Logo/SiteCover.png");				
+			});
+			$("#mapArea").on('click',function(){
+				$("#ImgMap").delay(200).hide("slide",{direction:'left'},500);
+			});
+			
+		});
+	</script>-->
+	
+</html>

@@ -1,0 +1,163 @@
+	html{
+		font-family: 'Ubuntu', sans-serif;
+	}
+	
+	#ImgMap{
+		position:absolute;
+		margin: -45% auto;
+	}
+	
+	#Logo{
+		position:absolute;
+		background-color:transparent;
+		margin:0 0 0 30px;
+	}
+	#Logo:active{
+		
+		border: 0;
+		padding: 15px 20px;
+	}
+	#LogoImg{
+		height:170px;
+		position:absolute;
+	}
+	#header{
+		height:200px;
+		border: 2px solid #685555;
+		border-radius: 0 6px 6px 0;
+	}
+	#wrapper{
+		display:flex;
+	}
+	#middle{
+		display:table;
+		width:70%;
+	}
+	#navigation{
+		display:flex;
+		background-color: #333;
+		border: 3px solid #685555;
+		border-radius: 4px;
+		margin: 1% 0 0 0;
+		padding: 18px 70px;
+		list-style-type:none;
+	}
+	.midTabs{
+		border-radius:0;
+	}
+	.lastTab{
+		border-radius:0px 4px 4px 0px;
+	}
+	a{
+		font-family: Verdana;
+		background-color: #685555;
+		border-radius: 4px 0 0 4px ;
+		color: white;
+		text-align: center;
+		text-decoration: none;
+		padding: 15px 20px;
+		display:block;
+		margin:0 0 0 1px;
+	}
+	a:hover {
+		background-color: #555;
+		color: white;
+	}
+	a:active{
+		border: 1px solid;
+		padding: 14px 19px;
+	}
+	
+	#active {
+		background-color: #1a0000;
+		color: white;
+	}	
+	#active:hover{
+		background-color: #1a0000;
+	}
+	
+	body{
+		background-color:#680e0e;
+		margin:0;
+	}
+	table{
+		padding: 0;
+		margin: 0;
+	}
+	#tdAbout{
+		padding: 50px 0 0 0;
+	}
+	.divSide{
+			width:15%;
+			padding:0 0 0 0;
+	}
+	#contactMain{
+			padding: 50px 0;
+	}
+	#contactInfo{
+		float: left;
+		
+	}
+	#googleMap{
+		float: right;
+	}
+	#main{
+			display: grid;
+			height: flex;
+			margin: 1.2% 0 0px 0;
+			border-radius: 4px;
+			background-color: #f9f9e5;
+			padding: 0 5% 0 5%;
+			box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
+	table{
+			padding: 50px 0 0;
+			margin:0;
+	}
+	#homeTable{
+		padding: 50px 0 50px;
+	}
+	#listDiv{
+		margin: 0 0 50px;
+		
+	}
+	#listDiv1{
+		float: left;
+	}
+	#listDiv2{
+		float: left;
+	}
+	#leftTd{
+		padding: 0px;
+		width: 550px;
+	}
+	#rightTd{
+		padding: 0px;
+		width: 550px;
+	}
+	.p1{
+		margin-right: 20px;
+		text-align:justify;
+		border-right:0;
+		width: 550px;
+	}
+	.p2{
+		text-align:justify;
+		width: 550px;
+	}
+	.p3{
+		padding:50px;
+		margin:30px 2px;
+		border: 2px solid #685555;
+		border-radius:4px;
+		
+	}
+	#filler{
+		height:40px;
+	}
+	
+	footer{
+		box-shadow: 0px 15px 50px 10px rgba(0,0,0,0.75);
+		height:200px;
+		background-color: #333;
+		position:relative;

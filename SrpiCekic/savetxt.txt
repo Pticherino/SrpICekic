@@ -1,0 +1,53 @@
+<div class="navigation">
+		
+							<nav>
+								<ul>
+									<li><a class="active" href="Home.html">Home</a></li>
+									<li><a href="Inventory.html">Inventory</a></li>
+									<li id="contact"><a href="Contact.html">Contact</a></li>
+								</ul>
+							</nav>
+		
+						</div>
+
+
+
+.navigation{
+	display:flex;
+}
+nav{
+	display:float;
+	background-color: #333;
+	border: 2px solid #685555;
+	margin: .1% 0 0 0;
+	padding: 20px 30px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding:15px;
+    overflow: hidden;
+    background-color: #333;
+}
+li{
+	display:inline;
+	padding-right: 15px;
+}
+#contact{
+}
+a{
+	font-family: Verdana;
+	background-color: #685555;
+	color: white;
+	text-align: center;
+	padding: 50px;
+	text-decoration: none;
+}
+li a:hover {
+	background-color: #555;
+	color: white;
+}
+li a:active{
+	border: 1px solid;
+	padding: 19px 29px;
+}
